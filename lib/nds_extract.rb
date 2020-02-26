@@ -11,7 +11,7 @@ def directors_totals(nds)
     object_index = 0 
     director_name = nds[array_index][:name]
     director_sum = 0 
-    while object_index < nds[array_index].length do 
+    while object_index < nds[array_index][:movies].length do 
       
       object_index += 1 
     end 
