@@ -12,7 +12,8 @@ def directors_totals(nds)
     director_name = nds[array_index][:name]
     director_sum = 0 
     while object_index < nds[array_index][:movies].length do 
-      
+      movie_index = 0 
+      director_sum += nds[array_index][:movies][object_index][:worldwide_gross]
       object_index += 1 
     end 
     array_index += 1 
