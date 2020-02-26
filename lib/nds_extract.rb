@@ -5,6 +5,7 @@ require 'pp'
 pp directors_database
 
 def directors_totals(nds)
+  total_hash = {}
 
   nil
 end
