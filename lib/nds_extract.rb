@@ -19,5 +19,5 @@ def directors_totals(nds)
     total_hash[director_name] = director_sum
     array_index += 1 
   end 
-  nil
+  total_hash
 end
