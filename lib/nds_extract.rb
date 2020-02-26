@@ -16,6 +16,7 @@ def directors_totals(nds)
       director_sum += nds[array_index][:movies][object_index][:worldwide_gross]
       object_index += 1 
     end 
+    total_hash[director_name] = director_sum
     array_index += 1 
   end 
   nil
